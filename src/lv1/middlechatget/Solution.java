@@ -8,6 +8,7 @@ class Solution {
             return str[(leng / 2)-1] + str[(leng / 2)];
         } else{
             return str[(leng / 2)];
+
         }
     }
 }
