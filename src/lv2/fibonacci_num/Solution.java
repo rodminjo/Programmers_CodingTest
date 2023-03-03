@@ -29,5 +29,16 @@ class Solution {
 //        return fibonacci(n - 1) + fibonacci(n - 2);
 //    }
 
+// BigInteger 이용한 방법
+//     BigInteger iter0 =new BigInteger("0"), iter1 = new BigInteger("1"), iter2=new BigInteger("0"), di = new BigInteger("1234567");
 
+//     for(int i =2; i<=n; i++){
+//         iter2= iter0.add(iter1);
+//         iter0 = iter1;
+//         iter1= iter2;
+//     }
+
+//     return Integer.valueOf(String.valueOf(iter2.remainder(di)));
+
+//     }
 }
