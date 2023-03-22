@@ -21,6 +21,7 @@ class Solution {
                 map1.put(fragment, map1.getOrDefault(fragment, 0) + 1);
             }
         }
+
         for (int i = 0 ; i < str2.length()-1 ; i++){
             String fragment = str2.substring(i, i+2);
             fragment = fragment.replaceAll("[^a-z]", "");
